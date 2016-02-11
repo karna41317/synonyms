@@ -1,0 +1,37 @@
+<ion-view>
+  <ion-nav-title  align-title="center"> Sök	
+  </ion-nav-title>
+    <ion-nav-buttons side="right">
+        <button class="button button-clear button-light " ng-click="clearAll($event)">
+            Klar
+        </button>
+    </ion-nav-buttons>
+ 	<ion-content>
+		<div id="card-container">
+			<div id="console-view-container">
+			</div>
+		</div>
+	</ion-content>
+<ion-footer-bar class="custom-footer">
+<label class ="item item-input-wrapper search-input">
+	<i class="icon ion-search placeholder-icon"></i>
+	<input class =" item-input-wrapper search-input" type="text" placeholder="Sök" ng-model="form.searchKey" ng-enter="search(form.searchKey)">
+</label>
+<button class="button button-positive " ng-click="testDB(form.searchKey)" >
+			TEST DB
+			</button>
+</ion-footer-bar>
+</ion-view>
+<!-- 
+	<ion-footer-bar align-title="left" class="custom-footer">
+		<div class="footer item-input bar searchInput">
+		
+			<label class="item item-input-wrapper" side ="left">
+				<i class="icon ion-search placeholder-icon"></i>
+				<input type="text" placeholder="Search" ng-model="form.searchKey" ng-enter="search(form.searchKey)">
+			</label>
+			<button class="button button-positive " ng-click="search(form.searchKey)" >
+			Sök
+			</button>
+		</div>
+	</ion-footer-bar> -->

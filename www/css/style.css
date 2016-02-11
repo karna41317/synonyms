@@ -1,0 +1,35 @@
+/* Empty. Add your own CSS if you like */
+
+.custom-footer {
+    height: 48px;
+    background-color: #FAD176;
+}
+.card-header {
+    display: inline;
+}
+.relative-time {
+    float: right
+}
+/*.item-input.searchInput {
+    padding: 8px
+}*/
+
+.bar-stable.customHead {
+    border-color: #002D62;
+    background-color: #002D62;
+    background-image: linear-gradient(0deg, #b2b2b2, #b2b2b2 50%, transparent 50%);
+}
+.bar.bar-stable .title {
+    color: white
+}
+.button.button-icon.button-clear.ion-navicon {
+    color: white
+}
+.item-input-wrapper.search-input {
+    background-color: white
+}
+.refer-word {
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+}
